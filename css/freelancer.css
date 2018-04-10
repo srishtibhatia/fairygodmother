@@ -1,9 +1,10 @@
 body {
   font-family: 'Lato';
 }
-h1 .name-title {
+.name-title {
     font-family: 'Amatic SC', cursive;
 }
+h1,
 h2,
 h3,
 h4,

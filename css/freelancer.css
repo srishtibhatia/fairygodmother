@@ -4,6 +4,9 @@ body {
 .name-title {
     font-family: 'Amatic SC', cursive;
 }
+.tagline {
+    font-family: 'Patrick Hand', cursive;
+}
 h1,
 h2,
 h3,
@@ -11,7 +14,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Luckiest Guy';
 }
 
 hr.star-light,
@@ -59,13 +62,13 @@ section {
 }
 
 section h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 2rem;
 }
 
 @media (min-width: 992px) {
   section h2 {
-    font-size: 3rem;
+    font-size: 4.5rem;
     line-height: 2.5rem;
   }
 }
@@ -192,7 +195,7 @@ header.masthead h2 {
     line-height: 4rem;
   }
   header.masthead h2 {
-    font-size: 1.75em;
+    font-size: 2.5em;
   }
 }
 

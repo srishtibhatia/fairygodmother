@@ -185,6 +185,12 @@ header.masthead h2 {
   font-family: 'Patrick Hand';
 }
 
+header.masthead img {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);

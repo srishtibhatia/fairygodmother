@@ -355,7 +355,9 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #128f76 !important;
+    background-image: url('https://i.pinimg.com/originals/19/db/3f/19db3f07d536261e24f8f159c57e4f65.jpg');
+    background-size: cover;
+    background-position: right 0px top -250px;
 }
 
 .bg-secondary {

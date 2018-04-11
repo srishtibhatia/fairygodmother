@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: 'Patrick Hand';
 }
 .name-title {
     font-family: 'Amatic SC', cursive;
@@ -45,7 +45,8 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #128f76;
+  background-color: #070b17;
+  border-radius: 200px;
 }
 
 hr.star-dark {
@@ -102,8 +103,8 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
-  font-family: 'Montserrat';
+  font-weight: 900;
+  font-family: 'Codystar';
 }
 
 #mainNav .navbar-brand {
@@ -334,12 +335,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #070b17;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #070b17;
 }
 
 a {
@@ -354,6 +355,10 @@ a:focus, a:hover, a:active {
   border-width: 2px;
 }
 
+.bg-solid-color {
+    background-color: #070b17;
+}
+
 .bg-primary {
     background-image: url('https://i.pinimg.com/originals/19/db/3f/19db3f07d536261e24f8f159c57e4f65.jpg');
     background-size: cover;
@@ -361,7 +366,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #070b17 !important;
+  opacity: 0.75;
 }
 
 .text-primary {

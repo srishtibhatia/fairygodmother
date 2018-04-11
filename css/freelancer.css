@@ -1,8 +1,17 @@
 body {
-  font-family: 'Patrick Hand';
+  font-family: 'Poiret One', sans-serif;
 }
 .name-title {
     font-family: 'Amatic SC', cursive;
+}
+.name-company {
+    font-family: 'Codystar', cursive;
+    font-weight: 900;
+    text-shadow: 2px 2px #070b17;
+}
+.name-by {
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 200;
 }
 .tagline {
     font-family: 'Patrick Hand', cursive;
@@ -14,7 +23,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Luckiest Guy';
+  font-family: 'Righteous', sans-serif;
 }
 
 hr.star-light,
@@ -177,19 +186,19 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3rem;
 }
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Patrick Hand';
+  font-family: 'Poiret One';
 }
 
 header.masthead img {
     width: 250px;
-    height: 250px;
-    border-radius: 250px;
+    height: 270px;
+    border-radius: 270px;
 }
 
 @media (min-width: 992px) {
@@ -199,7 +208,7 @@ header.masthead img {
   }
   header.masthead h1 {
     font-size: 4.75em;
-    line-height: 4rem;
+    line-height: 5rem;
   }
   header.masthead h2 {
     font-size: 2.5em;
@@ -360,9 +369,8 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-    background-image: url('https://i.pinimg.com/originals/19/db/3f/19db3f07d536261e24f8f159c57e4f65.jpg');
+    background-image: url('../img/background-primary.jpg');
     background-size: cover;
-    background-position: right 0px top -250px;
 }
 
 .bg-secondary {
@@ -370,12 +378,16 @@ a:focus, a:hover, a:active {
   opacity: 0.75;
 }
 
+.about-font {
+    font-size: 1.3em;
+}
+
 .text-primary {
   color: #18BC9C !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #070b17 !important;
 }
 
 .btn-primary {

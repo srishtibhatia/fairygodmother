@@ -16,6 +16,9 @@ body {
 .tagline {
     font-family: 'Patrick Hand', cursive;
 }
+.lead {
+    padding-bottom: 4em;
+}
 h1,
 h2,
 h3,

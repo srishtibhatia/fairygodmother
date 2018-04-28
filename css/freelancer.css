@@ -57,7 +57,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #070b17;
+  background-color: #120000;
   border-radius: 200px;
 }
 
@@ -189,12 +189,12 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 3rem;
 }
 
 header.masthead h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: 'Poiret One';
 }
 
@@ -206,7 +206,7 @@ header.masthead img {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(3rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {

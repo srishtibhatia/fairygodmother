@@ -133,7 +133,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #ffa101;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -141,7 +141,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #ffa101;
 }
 
 #mainNav .navbar-toggler {
@@ -172,7 +172,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #000;
-    background: #18BC9C;
+    background: #ffa101;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -343,7 +343,7 @@ header.masthead img {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #ffa101;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -362,7 +362,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #ffa101;
 }
 
 a:focus, a:hover, a:active {
@@ -392,7 +392,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #ffa101 !important;
 }
 
 .text-secondary {

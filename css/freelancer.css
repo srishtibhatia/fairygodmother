@@ -183,6 +183,10 @@ section h2 {
   }
 }
 
+.modal-dialog.cascading-modal.modal-avatar .modal-header {
+    margin: -6rem 0 -1rem;
+}
+
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
@@ -216,6 +220,10 @@ header.masthead img {
   header.masthead h2 {
     font-size: 1.8em;
   }
+}
+
+.start-popup {
+  margin-top: 6em;
 }
 
 .portfolio {

@@ -62,11 +62,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #120000;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #120000;
   background-color: white;
 }
 
@@ -167,11 +167,11 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
+    color: #000;
+    background: #ffa101;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #000;
     background: #18BC9C;
   }
   #mainNav.navbar-shrink {
@@ -234,7 +234,7 @@ header.masthead img {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(255, 161, 1, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -243,6 +243,12 @@ header.masthead img {
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.portfolio p {
+    text-align: center;
+    color: black;
+    font-size: 1.7em;
 }
 
 @media (min-width: 576px) {
@@ -347,12 +353,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #070b17;
+  background-color: #120000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #070b17;
+  background-color: #120000;
 }
 
 a {
@@ -368,7 +374,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-solid-color {
-    background-color: #070b17;
+    background-color: #120000;
 }
 
 .bg-primary {
@@ -377,7 +383,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #070b17 !important;
+  background-color: #120000 !important;
   opacity: 0.75;
 }
 
@@ -390,17 +396,18 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #070b17 !important;
+  color: #120000 !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #ffa101;
+  border-color: #ffa101;
+  color: black;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #ffa101;
+  border-color: #ffa101;
 }
 
 .btn-secondary {

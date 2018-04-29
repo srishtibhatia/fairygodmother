@@ -222,8 +222,22 @@ header.masthead img {
   }
 }
 
-.start-popup {
-  margin-top: 6em;
+.start-popup-container {
+  margin-top: 16em;
+}
+
+.modal.show .modal-dialog {
+    padding-top: 10em;
+    max-width: 40em;
+}
+
+.modal-header img {
+    width: 15em;
+}
+
+.modal-header h1 {
+    padding-top: 3em;
+    vertical-align: text-bottom;
 }
 
 .portfolio {

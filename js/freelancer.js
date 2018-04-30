@@ -79,5 +79,10 @@
   $('#gform *').fadeOut(2000);
   $('#gform').prepend('Your request has been submitted.');
   });
+  $('#gform-popup').on('submit', function(e) {
+      alert('submitted');
+  $('#gform-popup *').fadeOut(2000);
+  $('#gform-popup').prepend('Your request has been submitted.');
+  });
 
 })(jQuery); // End of use strict

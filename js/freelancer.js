@@ -74,4 +74,10 @@
     });
   });
 
+  var submitted=false;
+  $('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your request has been submitted.');
+  });
+
 })(jQuery); // End of use strict

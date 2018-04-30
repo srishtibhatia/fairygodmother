@@ -231,6 +231,10 @@ header.masthead img {
     max-width: 40em;
 }
 
+.modal-header {
+    color: white;
+}
+
 .modal-header img {
     width: 15em;
     margin-right: 1em;
@@ -240,6 +244,19 @@ header.masthead img {
     padding-top: 3em;
     vertical-align: text-bottom;
     font-family: "Amatic SC", cursive;
+}
+
+.modal-body {
+    background-color: #120000;
+    color: white;
+}
+
+.modal-body button {
+    background-color: #ffa101;
+}
+
+.modal-content {
+    background-color: #120000;
 }
 
 .modal-body p{

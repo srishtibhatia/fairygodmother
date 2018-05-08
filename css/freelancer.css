@@ -224,6 +224,7 @@ header.masthead img {
 
 .start-popup-container {
   margin-top: 16em;
+  margin-bottom: -16em;
 }
 
 .modal.show .modal-dialog {

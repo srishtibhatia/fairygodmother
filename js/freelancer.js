@@ -81,13 +81,8 @@
   $('#gform-popup').prepend('Your request has been submitted.');
   });
 
-    var start_popup_shown = false;
-    $(window).on('activate.bs.scrollspy', function () {
-        // do something…
-        if(start_popup_shown == false && $(".navbar-nav a.active").text() == "About") {
-            $('#modalLoginAvatarDemo').modal('show');
-            start_popup_shown = true;
-        }
-    });
+  setTimeout(function () {
+      $('#modalLoginAvatarDemo').modal('show')
+  }, 7000);
 
 })(jQuery); // End of use strict

@@ -228,7 +228,7 @@ header.masthead img {
 }
 
 .modal.show .modal-dialog {
-    padding-top: 10em;
+    padding-top: 6em;
     max-width: 40em;
 }
 
@@ -242,9 +242,8 @@ header.masthead img {
 }
 
 .modal-header h1 {
-    padding-top: 3em;
-    vertical-align: text-bottom;
     font-family: "Amatic SC", cursive;
+    text-align: center;
 }
 
 .modal-body {

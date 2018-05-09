@@ -15,8 +15,6 @@
     }
   });
 
-  $('#modalLoginAvatarDemo').modal('show')
-
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
@@ -74,15 +72,22 @@
     });
   });
 
-  var submitted=false;
   $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
   $('#gform').prepend('Your request has been submitted.');
   });
   $('#gform-popup').on('submit', function(e) {
-      alert('submitted');
   $('#gform-popup *').fadeOut(2000);
   $('#gform-popup').prepend('Your request has been submitted.');
   });
+
+    var start_popup_shown = false;
+    $(window).on('activate.bs.scrollspy', function () {
+        // do something…
+        if(start_popup_shown == false && $(".navbar-nav a.active").text() == "About") {
+            $('#modalLoginAvatarDemo').modal('show');
+            start_popup_shown = true;
+        }
+    });
 
 })(jQuery); // End of use strict

@@ -430,6 +430,7 @@ a:focus, a:hover, a:active {
 .bg-primary {
     background-image: url('../img/background-primary.jpg');
     background-size: cover;
+    background-color: #120000 !important;
 }
 
 .bg-secondary {

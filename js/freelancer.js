@@ -72,17 +72,20 @@
     });
   });
 
-  $('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your request has been submitted.');
-  });
-  $('#gform-popup').on('submit', function(e) {
-  $('#gform-popup *').fadeOut(2000);
-  $('#gform-popup').prepend('Your request has been submitted.');
-  });
+    $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your request has been submitted.');
+    });
+    $('#gform-popup').on('submit', function(e) {
+        $('#gform-popup *').fadeOut(2000);
+        $('#gform-popup').prepend('Your request has been submitted.');
+        setTimeout(function () {
+            $('#modalLoginAvatarDemo').modal('hide')
+        }, 500);
+    });
 
-  setTimeout(function () {
-      $('#modalLoginAvatarDemo').modal('show')
-  }, 7000);
+    setTimeout(function () {
+        $('#modalLoginAvatarDemo').modal('show')
+    }, 7000);
 
 })(jQuery); // End of use strict

@@ -317,6 +317,12 @@ header.masthead img {
   box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
 }
 
+.portfolio-modal-dialog p, .portfolio-modal-dialog ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  text-align: justify;
+}
+
 .portfolio-modal .portfolio-modal-dialog .close-button {
   position: absolute;
   top: 2rem;

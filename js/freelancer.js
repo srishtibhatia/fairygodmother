@@ -84,6 +84,8 @@
         }, 500);
     });
 
+    $('#popup-close').on('click', function () {$('#modalLoginAvatarDemo').modal('hide');})
+
     setTimeout(function () {
         $('#modalLoginAvatarDemo').modal('show')
     }, 7000);
